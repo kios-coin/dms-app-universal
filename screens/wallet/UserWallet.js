@@ -1101,7 +1101,7 @@ const UserWallet = observer(({ navigation }) => {
                                 pt={4}
                                 color='#12121D'
                                 style={{ fontWeight: 400 }}>
-                                {currency}
+                                {currency.toUpperCase()}
                               </Para3Text>
                             </HStack>
                           </Box>
@@ -1119,7 +1119,7 @@ const UserWallet = observer(({ navigation }) => {
                                 pt={4}
                                 color='#12121D'
                                 style={{ fontWeight: 400 }}>
-                                {currency}
+                                {currency.toUpperCase()}
                               </Para3Text>
                             </HStack>
                           </Box>
@@ -1162,7 +1162,7 @@ const UserWallet = observer(({ navigation }) => {
                                     pt={4}
                                     color='#12121D'
                                     style={{ fontWeight: 400 }}>
-                                    {currency}
+                                    {currency.toUpperCase()}
                                   </Para3Text>
                                 </HStack>
                               </Box>
@@ -1204,7 +1204,7 @@ const UserWallet = observer(({ navigation }) => {
                                 pt={4}
                                 color='#12121D'
                                 style={{ fontWeight: 400 }}>
-                                {currency}
+                                {currency.toUpperCase()}
                               </Para3Text>
                             </HStack>
                           </Box>
@@ -1271,7 +1271,7 @@ const UserWallet = observer(({ navigation }) => {
                                 (1 {tokenSymbol} ≒{' '}
                                 {convertProperValue(
                                   oneTokenRate.toBOAString(),
-                                  1,
+                                  0,
                                   5,
                                 )}{' '}
                                 {currency.toUpperCase()})
@@ -1373,7 +1373,7 @@ const UserWallet = observer(({ navigation }) => {
                                         fontSize={20}
                                         lineHeight={22}
                                         fontWeight={500}>
-                                        {currency}
+                                        {currency.toUpperCase()}
                                       </AppleSDGothicNeoSBText>
                                     </HStack>
                                     <HStack
@@ -1565,7 +1565,7 @@ const UserWallet = observer(({ navigation }) => {
                                     (1 {tokenSymbol} ≒{' '}
                                     {convertProperValue(
                                       oneTokenRate.toBOAString(),
-                                      1,
+                                      0,
                                       5,
                                     )}{' '}
                                     {currency.toUpperCase()})

@@ -15,6 +15,7 @@ export function truncateMiddleString(str, num = 10) {
 }
 export function toFix(str, dec = 2) {
   const index = str.indexOf('.');
+  console.log('dec', dec);
   return str.slice(0, index + (dec + 1));
 }
 
